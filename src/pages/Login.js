@@ -8,7 +8,7 @@ export const Login = () => {
   useTitle("Login");
   const navigate = useNavigate();
   const email = useRef();
-  const password = useRef();
+  const password = useRef();  
 
   async function handleLogin(event){
     event.preventDefault();
