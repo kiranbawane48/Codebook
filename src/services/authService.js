@@ -6,12 +6,13 @@ export async function login(authDetail){
       }
      const response = await fetch("http://localhost:8080/login",requestOptions);
      if (!response.ok) {
-  if (response.status === 400) {
-    throw new Error("This email is not registered. Please sign up.");
-  } else {
-    throw new Error(`HTTP error! Status: ${response.status}, Message: ${response.statusText}`);
-  }
-}
+      if (response.status === 400) {
+        throw new Error("This email is not registered. Please sign up.");
+      } else {
+        throw new Error(`HTTP error! Status: ${response.status}, Message: ${response.statusText}`);
+      }
+    }
+    
      const data = await response.json();
      console.log(data);
      
@@ -30,7 +31,11 @@ export async function register(authDetail){
       }
      const response = await fetch("http://localhost:8080/register", requestOptions);
      if (!response.ok) {
-      throw new Error(`HTTP error! Status: ${response.status}, Message: ${response.statusText}`);
+      if (response.status === 400) {
+        throw new Error("This email is already exist. Please Login in.");
+      } else {
+        throw new Error(`HTTP error! Status: ${response.status}, Message: ${response.statusText}`);
+      }
     }
      const data = await response.json();
      
