@@ -3,7 +3,6 @@
 
 **Demo:**
 
-![image](https://github.com/kiranbawane48/Codebook/assets/100428197/5fe343a4-ffd9-4807-a053-49d3e7ab101e)
 
 
 
