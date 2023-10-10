@@ -8,16 +8,19 @@
 **Demo:**
 
 ****HOMEPAGE****
+<div align="center" style="margin-top: 10px;">
+  <img src="https://github.com/kiranbawane48/Codebook/assets/100428197/a7575f22-a50c-4e75-9839-0f3cf5a8354c" alt="Image" width="400" height="300">
+</div>
 
 
-![home](https://github.com/kiranbawane48/Codebook/assets/100428197/a7575f22-a50c-4e75-9839-0f3cf5a8354c)
 
 
 ****PRODUCT PAGE****
 
 
-![product](https://github.com/kiranbawane48/Codebook/assets/100428197/c6cb00e1-401e-4eeb-bda0-0393423879ba)
-
+<div align="center" style="margin-top: 10px;">
+  <img src="https://github.com/kiranbawane48/Codebook/assets/100428197/c6cb00e1-401e-4eeb-bda0-0393423879ba" alt="Image" width="400" height="300">
+</div>
 
 
 
