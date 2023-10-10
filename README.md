@@ -1,3 +1,48 @@
+http://localhost:8080/products
+data fetching
+json-server --watch data/db.json --port 8080
+
+https://github.com/jeremyben/json-server-auth
+
+both json and json auto ===> json-server data/db.json -m ./node_modules/json-server-auth --port 8080
+
+To check and show user already exist
+https://www.npmjs.com/package/react-toastify
+
+
+Router.json
+json-server data/db.json -m ./node_modules/json-server-auth -r data/routes.json --port 8080
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
