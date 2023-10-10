@@ -1,4 +1,4 @@
-**Deployment Link:** https://kiran-bawane-codebook.netlify.app/
+**Deployment Link:** https://kiranbawane-codebook.netlify.app/
 
 
 **Technologies:** HTML, Tailwind CSS, ReactJs, GIT, Netlify
